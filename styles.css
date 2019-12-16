@@ -1,0 +1,52 @@
+/* *{
+    color: black !important;
+}
+
+p.special {
+    color: red;
+    background-color: yellow;
+}
+
+a.special {
+    color: violet;
+    background-color: green;
+}
+
+#very-special {
+    color: brown;
+    background-color: grey;
+}
+
+input[type="text"] {
+    border: 10px double green;
+}
+
+h1, h2, h3, h4 {
+    color: #2D958F;
+}
+
+h1, .special {
+    border: 5px solid black;
+}
+ */
+div.left-panel h1 {
+     color: red;
+ }
+
+ a:hover{
+     color: orange;
+ }
+
+ a:active {
+     color:blue;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+ @media only screen and (max-width: 768px) {
+     body{
+         background-color:black;
+     }
+ }
